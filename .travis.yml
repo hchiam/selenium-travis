@@ -1,13 +1,10 @@
 language: node_js
-node_js:
-  - "7"
-dist: trusty
-sudo: required
 addons:
   chrome: stable
-install:
-  - npm install
-  - npm install -g selenium-side-runner
+node_js:
+  - "11"
+before_script:
   - npm install -g chromedriver
+  - npm install -g selenium-side-runner
 script:
-  - node index.js & npm run test
+  - node index.js & selenium-side-runner -c "goog:chromeOptions.args=[--headless,--nogpu] browserName=chrome" test.side
