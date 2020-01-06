@@ -1,16 +1,13 @@
-# automatic testing with Travis CI!
-
-sudo: required
-
 language: node_js
-
 node_js:
-  - "node"
-
-before_script:
+  - "7"
+dist: trusty
+sudo: required
+addons:
+  chrome: stable
+install:
+  - npm install
   - npm install -g selenium-side-runner
   - npm install -g chromedriver
-  - export CHROME_BIN=/usr/bin/google-chrome
-
 script:
   - node index.js & npm run test
