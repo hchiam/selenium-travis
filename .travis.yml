@@ -8,11 +8,7 @@ node_js:
   - "node"
 
 addons:
-  apt:
-    sources:
-      - google-chrome
-    packages:
-      - google-chrome-stable
+  chrome: stable
 
 before_script:
   - npm install -g selenium-side-runner
