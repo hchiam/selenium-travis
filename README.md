@@ -21,7 +21,7 @@ And then run this command:
 npm run test
 ```
 
-(It runs `selenium-side-runner` [under the hood](https://github.com/hchiam/selenium-travis/blob/master/package.json).)
+Or just `npm t`. (Either way, it runs `selenium-side-runner` [under the hood](https://github.com/hchiam/selenium-travis/blob/master/package.json).)
 
 ## Some of the resources I learned from
 
