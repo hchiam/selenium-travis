@@ -3,7 +3,7 @@ Selenium IDE, selenium-side-runner, and Travis CI.
 
 Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
-This is an example repo that is has Travis CI set up to run selenium-side-runner, which runs a Selenium IDE .side file, which was recorded with a GUI (chrome extension).
+This is an example repo that has [Travis CI](https://travis-ci.com/hchiam/selenium-travis) set up to run the [`selenium-side-runner` command](https://selenium.dev/selenium-ide/docs/en/introduction/command-line-runner), which runs a [Selenium IDE .side file](https://github.com/hchiam/selenium-travis/blob/master/test.side), which was recorded by using a visual interface tool (a Chrome Extension called [Selenium IDE](https://chrome.google.com/webstore/detail/selenium-ide/mooikfkahbdckldjjndioackbalphokd)).
 
 [![Build Status](https://travis-ci.com/hchiam/selenium-travis.svg?branch=master)](https://travis-ci.com/hchiam/selenium-travis)
 
