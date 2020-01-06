@@ -23,5 +23,5 @@ before_script:
   - npm install -g selenium-side-runner
 
 script:
-  # - python run_python_too.py & node index.js & selenium-side-runner -c "goog:chromeOptions.args=[--headless,--nogpu] browserName=chrome" test.side; pkill -9 -f run_python_too.py; killall -9 node
+  # - python run_python_too.py & node index.js & selenium-side-runner -c "goog:chromeOptions.args=[--headless,--nogpu] browserName=chrome" test.side; killall -9 node; # pkill -9 -f run_python_too.py;
   - npm run test
