@@ -4,7 +4,7 @@
   "description": "Selenium IDE, selenium-side-runner, and Travis CI",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js & selenium-side-runner -c \"goog:chromeOptions.args=[--headless,--nogpu] browserName=chrome\" test.side; killall -9 node"
+    "test": "python3.7 run_python_too.py & node index.js & selenium-side-runner -c \"goog:chromeOptions.args=[--headless,--nogpu] browserName=chrome\" test.side; killall -9 node"
   },
   "repository": {
     "type": "git",
