@@ -3,9 +3,9 @@ Selenium IDE, selenium-side-runner, and Travis CI.
 
 Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
-This is an example repo that has [Travis CI](https://travis-ci.com/hchiam/selenium-travis) set up to run the [`selenium-side-runner` command](https://selenium.dev/selenium-ide/docs/en/introduction/command-line-runner), which runs a [Selenium IDE .side file](https://github.com/hchiam/selenium-travis/blob/master/test.side), which was recorded by using a visual interface tool (a Chrome Extension called [Selenium IDE](https://chrome.google.com/webstore/detail/selenium-ide/mooikfkahbdckldjjndioackbalphokd)). When I push a new commit, it creates a new build and shows test results on Travis CI [here](https://travis-ci.com/hchiam/selenium-travis):
+This is an example repo that has [Travis CI](https://travis-ci.org/hchiam/selenium-travis) set up to run the [`selenium-side-runner` command](https://selenium.dev/selenium-ide/docs/en/introduction/command-line-runner), which runs a [Selenium IDE .side file](https://github.com/hchiam/selenium-travis/blob/master/test.side), which was recorded by using a visual interface tool (a Chrome Extension called [Selenium IDE](https://chrome.google.com/webstore/detail/selenium-ide/mooikfkahbdckldjjndioackbalphokd)). When I push a new commit, it creates a new build and shows test results on Travis CI [here](https://travis-ci.com/hchiam/selenium-travis):
 
-[![Build Status](https://travis-ci.com/hchiam/selenium-travis.svg?branch=master)](https://travis-ci.com/hchiam/selenium-travis)
+[![Build Status](https://travis-ci.org/hchiam/selenium-travis.svg?branch=master)](https://travis-ci.org/hchiam/selenium-travis)
 
 If you want to test out the `selenium-side-runner` command _locally_ on your own computer, you can do this:
 
