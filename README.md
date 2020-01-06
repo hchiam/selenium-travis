@@ -11,6 +11,7 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
 * <https://selenium.dev/selenium-ide/docs/en/introduction/command-line-runner>
 * <https://github.com/hchiam/travistest>
 * <https://github.com/applitools/applitools-for-selenium-ide/blob/master/.travis.yml>
+* <https://github.com/RustyNail/SeleniumIDEDemo/blob/master/.travis.yml>
 
 ## Aside
 
