@@ -1,9 +1,14 @@
 # automatic testing with Travis CI!
 
-language: node_js
+language:
+  - node_js
+  - python
 
 node_js:
   - "11"
+
+python:
+  - "3.7"
 
 addons:
   chrome: stable
@@ -18,5 +23,5 @@ before_script:
   - npm install -g selenium-side-runner
 
 script:
-  # - node index.js & selenium-side-runner -c "goog:chromeOptions.args=[--headless,--nogpu] browserName=chrome" test.side; killall -9 node
+  # - python run_python_too.py & node index.js & selenium-side-runner -c "goog:chromeOptions.args=[--headless,--nogpu] browserName=chrome" test.side; pkill -9 -f run_python_too.py; killall -9 node
   - npm run test
