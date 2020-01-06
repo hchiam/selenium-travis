@@ -7,15 +7,10 @@ language: node_js
 node_js:
   - "node"
 
-addons:
-  apt:
-    packages:
-      - google-chrome-stable
-
 before_script:
   - npm install -g selenium-side-runner
   - npm install -g chromedriver
-  - export CHROME_BIN=/usr/bin/google-chrome-stable
+  - export CHROME_BIN=/usr/bin/google-chrome
 
 script:
   - node index.js & npm run test
