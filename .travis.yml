@@ -1,5 +1,7 @@
 # automatic testing with Travis CI!
 
+dist: xenial # to get python3.7
+
 language:
   - node_js
   - python
@@ -23,5 +25,5 @@ before_script:
   - npm install -g selenium-side-runner
 
 script:
-  # - python3 run_python_too.py & node index.js & selenium-side-runner -c "goog:chromeOptions.args=[--headless,--nogpu] browserName=chrome" test.side; killall -9 node; # pkill -9 -f run_python_too.py;
+  # - python3.7 run_python_too.py & node index.js & selenium-side-runner -c "goog:chromeOptions.args=[--headless,--nogpu] browserName=chrome" test.side; killall -9 node; # pkill -9 -f run_python_too.py;
   - npm run test
