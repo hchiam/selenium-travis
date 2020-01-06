@@ -1,0 +1,48 @@
+{
+  "id": "7fa8701e-a831-4536-bc1f-e50bec9c2133",
+  "version": "2.0",
+  "name": "test",
+  "url": "http://localhost:3000",
+  "tests": [{
+    "id": "2f9e3c98-fa7e-478d-a9a6-b47688c6f487",
+    "name": "test",
+    "commands": [{
+      "id": "c0489aed-b073-449b-acb7-e75b57a0ef31",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "087ee150-bde3-46ef-8816-3b36c8a51287",
+      "comment": "",
+      "command": "click",
+      "target": "id=hi-button",
+      "targets": [
+        ["id=hi-button", "id"],
+        ["css=#hi-button", "css:finder"],
+        ["xpath=//button[@id='hi-button']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Click me!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "057e0f0c-0527-4962-b1c2-7353f170f687",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Hi!",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "390aaee7-dc6c-4d6b-a6d2-2ccfb3e9640c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["2f9e3c98-fa7e-478d-a9a6-b47688c6f487"]
+  }],
+  "urls": ["http://localhost:3000/"],
+  "plugins": []
+}

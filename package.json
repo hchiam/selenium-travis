@@ -1,0 +1,23 @@
+{
+  "name": "selenium-travis",
+  "version": "1.0.0",
+  "description": "Selenium IDE, selenium-side-runner, and Travis CI",
+  "main": "index.js",
+  "scripts": {
+    "test": "selenium-side-runner test.side"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hchiam/selenium-travis.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hchiam/selenium-travis/issues"
+  },
+  "homepage": "https://github.com/hchiam/selenium-travis#readme",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1"
+  }
+}
