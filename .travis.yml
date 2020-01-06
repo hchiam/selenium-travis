@@ -7,6 +7,7 @@ node_js:
 
 before_script:
   - npm install -g selenium-side-runner
+  - npm install -g chromedriver
 
 script:
   - node index.js & npm run test
