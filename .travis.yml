@@ -1,6 +1,9 @@
 # automatic testing with Travis CI!
 
-language: javascript
+language: node_js
+
+node_js:
+  - "node"
 
 before_script:
   - npm install -g selenium-side-runner
