@@ -1,5 +1,7 @@
 # automatic testing with Travis CI!
 
+sudo: required
+
 language: node_js
 
 node_js:
