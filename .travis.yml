@@ -15,7 +15,7 @@ addons:
 before_script:
   - npm install -g selenium-side-runner
   - npm install -g chromedriver
-  - export CHROME_BIN=chromium-browser
+  - export CHROME_BIN=/usr/bin/google-chrome-stable
 
 script:
   - node index.js & npm run test
