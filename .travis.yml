@@ -22,8 +22,8 @@ cache:
 before_script:
   # - npm install -g chromedriver
   # - npm install -g selenium-side-runner
-  - yarn global add chromedriver
-  - yarn global add selenium-side-runner
+  - yarn add chromedriver
+  - yarn add selenium-side-runner
 
 script:
   # - python3 run_python_too.py & node index.js & selenium-side-runner -c "goog:chromeOptions.args=[--headless,--nogpu] browserName=chrome" test.side; killall -9 node; # pkill -9 -f run_python_too.py;
