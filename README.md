@@ -12,13 +12,13 @@ If you want to test out the `selenium-side-runner` command _locally_ on your own
 ```bash
 git clone https://github.com/hchiam/selenium-travis.git
 cd selenium-travis
-npm install
+npm install # or: yarn
 ```
 
 And then run this command:
 
 ```bash
-npm run test
+npm run test # or: yarn test
 ```
 
 Or just `npm t`. (Either way, it runs `selenium-side-runner` [under the hood](https://github.com/hchiam/selenium-travis/blob/master/package.json).)
