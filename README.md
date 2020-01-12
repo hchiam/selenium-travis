@@ -36,3 +36,11 @@ Or just `npm t`. (Either way, it runs `selenium-side-runner` [under the hood](ht
 ## Aside
 
 To skip running Travis CI upon commit, the commit message should contain `[skip ci]`, or `[ci skip]`, or `[skip travis]`, etc. (ci, travis, travis ci, travis-ci, or travisci).
+
+## You might also be interested in an alternative
+
+Travis CI using Spectron/mocha `spec.js` to simulate user input and button clicks in an Electron.js app:
+
+<https://github.com/hchiam/anonymous-input>
+
+Note these 4 files: `.travis.yml`, `travis-build.sh`, `package.json`, and `test/spec.js`.
