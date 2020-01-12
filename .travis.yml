@@ -28,3 +28,8 @@ before_script:
 script:
   # - python3 run_python_too.py & node index.js & selenium-side-runner -c "goog:chromeOptions.args=[--headless,--nogpu] browserName=chrome" test.side; # killall -9 node; # pkill -9 -f run_python_too.py;
   - yarn test
+
+notifications:
+  email:
+    on_success: change
+    on_failure: always
