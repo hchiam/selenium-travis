@@ -23,6 +23,12 @@ npm run test # or: yarn test
 
 Or just `npm t`. (Either way, it runs `selenium-side-runner` [under the hood](https://github.com/hchiam/selenium-travis/blob/master/package.json).)
 
+## Make sure to enable the specific GitHub repo in Travis CI
+
+1. https://travis-ci.org/account/repositories
+2. Search for the relevant GitHub repo
+3. Hit the sliding button so it moves to the right / turns green
+
 ## Some of the resources I learned from
 
 * [Chrome](https://www.google.com/chrome) extension [Selenium IDE](https://chrome.google.com/webstore/detail/selenium-ide/mooikfkahbdckldjjndioackbalphokd). You can see the [example .side file here](https://github.com/hchiam/selenium-travis/blob/master/test.side).
